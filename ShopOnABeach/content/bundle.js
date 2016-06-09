@@ -224,50 +224,58 @@ require('./goods.service');
             return [
                 {
                     categoryId: 1,
-                    name: 'Phones',
+                    name: 'Food',
                     goods: [
                         {
-                            name: 'Nokia',
-                            info: 'the best phone'
+                            name: 'Ice cream',
+                            info: 'The best one in Kyiv'
                         },
                         {
-                            name: 'Sony',
-                            info: 'my first phone'
+                            name: 'Watermelon',
+                            info: 'Refreshing, tasty, and hydrating'
+                        },
+                        {
+                            name: 'Pluots',
+                            info: 'One of the most delicious fruits of summer '
+                        },
+                        {
+                            name: 'Cucumbers',
+                            info: 'Has only 16 calories and 4 grams of carb'
+                        },
+                        {
+                            name: 'Swiss Chard',
+                            info: 'Provide antioxidant and anti-inflammatory benefits'
+                        },
+                        {
+                            name: 'Tomatoes',
+                            info: 'Make a nutritious and delicious addition to any meal'
                         }, {
-                            name: 'IPhone',
-                            info: 'the best phone'
+                            name: 'Blueberries',
+                            info: 'A top source of dietary fiber, antioxidants, manganese, and vitamin C'
                         },
                         {
-                            name: 'Xiaomi',
-                            info: 'my first phone'
-                        },
-                        {
-                            name: 'Lenovo',
-                            info: 'the best phone'
-                        },
-                        {
-                            name: 'Samsung',
-                            info: 'my first phone'
-                        }, {
-                            name: 'Meizu',
-                            info: 'the best phone'
-                        },
-                        {
-                            name: 'Asus',
-                            info: 'my first phone'
+                            name: 'Strawberries',
+                            info: 'Universally popular for flavor, color, aroma, and versatility'
                         }
                     ]
                 }, {
-
                     categoryId: 2,
-                    name: 'Games',
+                    name: 'Drinks',
                     goods: [
                         {
-                            name: 'Skyrime',
+                            name: 'Elderflower Fizz',
                             info: 'for boys'
                         },
                         {
-                            name: 'Angry Birds',
+                            name: 'Pineapple Rummy',
+                            info: 'for girls'
+                        },
+                        {
+                            name: 'Peach-Ginger Iced Tea',
+                            info: 'for everyone'
+                        },
+                        {
+                            name: 'Honeydew Ice',
                             info: 'for children'
                         }
                     ]
