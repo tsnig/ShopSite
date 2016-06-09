@@ -1,0 +1,24 @@
+﻿<div class="container-fluid">
+    <div>
+        <div class="good-placeholder" ng-repeat="good in goodsCtrl.goods | filter:rootCtrl.searchField">
+            <div class="row" style="height:70px">
+                <div class="col-md-4">
+                    <img src="img/images.jpg" height="50" />
+                </div>
+                <div class="col-md-8">
+                    <h3>{{good.name}}</h3>
+                    <br />
+                    <label>{{good.info}}</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pull-right">
+                        <button class="btn btn-success" ng-click="goodsCtrl.addToBasket(good)" ng-disabled="good.added">Add</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

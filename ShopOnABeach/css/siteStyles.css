@@ -1,0 +1,53 @@
+﻿body {
+    min-width: 400px;
+}
+
+nav.navbar {
+    padding: 10px 15px 0 15px;
+    margin: 5px;
+    background-color: #52C6FF;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 150px;
+    overflow: hidden;
+    left: 0;
+    margin: 0;
+    background: #77C35C;
+}
+
+    #sidebar a {
+        color: white;
+    }
+
+        #sidebar a:hover {
+            border: 1px solid white;
+            background: #77C35C;
+        }
+
+        #sidebar a:focus {
+            border: 1px solid white;
+            background: #217a02;
+        }
+
+#main {
+    margin: 0 0 0 150px;
+}
+
+.good-placeholder {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+    .good-placeholder h3 {
+        display: inline;
+    }
+
+#basket i.fa {
+    cursor: pointer;
+    cursor: hand;
+}

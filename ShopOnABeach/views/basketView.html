@@ -1,0 +1,19 @@
+﻿<div class="container" id="basket">
+    <div ng-if="basketCtrl.basketEmpty()" style="text-align: center;">
+        <h2>No items in a basket</h2>
+    </div>
+    <div ng-if="!basketCtrl.basketEmpty()" ng-repeat="item in basketCtrl.goods()" class="row" height="60px" >
+        <div class="col-xs-3 col-md-offset-3"  style="padding:0">
+            <img src="img/images.jpg" height="50" />
+        </div>
+        <div class="col-xs-4 col-md-2">
+            <label>{{item.name}}</label>
+        </div>
+        <div class="col-xs-5 col-md-3" style="padding:0">
+            <i class="fa fa-minus" ng-click="basketCtrl.decreaseCount(item)"></i>
+            <input ng-model="item.count" style="width:30px;" maxlength="4" />
+            <i class="fa fa-plus" ng-click="basketCtrl.increaseCount(item)"></i>
+            <i class="fa fa-times" ng-click="basketCtrl.remove(item)" style="margin-left:10px"></i>
+        </div>
+    </div>
+</div>
